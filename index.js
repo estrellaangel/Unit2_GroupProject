@@ -1,11 +1,8 @@
 let number = prompt("What is the decimal number");
 let finalString;
 
-<<<<<<< Updated upstream
-=======
 let binary =(number);
 
->>>>>>> Stashed changes
 
 binary = number
 
