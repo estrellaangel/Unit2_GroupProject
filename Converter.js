@@ -9,12 +9,10 @@ while (binary>0){
     binary = binary - (binary%2);
     binary = binary/2;
 }
-
 binaryArray.reverse();
 var binaryStringC = binaryArray.toString();
 var binaryString = binaryStringC.replace(/,/g,``);
 console.log(binaryString);
-
 
 let hexadecimal = Number(number);
 
