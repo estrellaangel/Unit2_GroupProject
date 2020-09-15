@@ -10,11 +10,9 @@ while (binary>0){
     binary = binary/2;
 }
 binaryArray.reverse();
-binaryArray.replace(/(\d{4})/g, '$1 ').replace(/(^\s+|\s+$)/,'')
 var binaryStringC = binaryArray.toString();
 var binaryString = binaryStringC.replace(/,/g,``);
 console.log(binaryString);
-
 
 let hexadecimal = Number(number);
 
