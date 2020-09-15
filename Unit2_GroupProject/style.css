@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+};
+h2{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+};
+article{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
